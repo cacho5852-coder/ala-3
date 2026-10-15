@@ -1,0 +1,36 @@
+OOP (Programacion orientada a objetos).
+
+son dos las características de la programación orientada a objetos las que aparecen en nuestro codigo, comencemos con la primera que se ve que es la de “encapsulamiento”:
+
+
+class calculadora{
+
+sumar(a,b){
+
+return a + b;
+
+}
+
+restar(a,b){
+
+return a - b;
+
+}
+
+}
+
+
+como se puede ver arriba, esto organiza las operaciones dentro de una misma clase. Pero como se muestra en el codigo no hay “encapsulamiento” completo , porque no esta protegiendo datos con propiedades privadas.
+
+La segunada características se llama “abstracción” se encarga de ocultar detalles innecesarios en el codigo:
+
+
+calculadora.sumar(num1, num2);
+
+
+el codigo de arriba nos permite llamar el metodo sumar sin tener que escribir la operación en el menu cada vez. Como dijimos antes la “abstraccion” oculta detalles innecesarios en este caso oculta que la clase es quien se encarga de realizar el calculo.
+
+
+Termino explicando que las clases sirven para crear objetos y que el codigo
+
+“const calculadora = new calculadora();” nos ayuda a crear un objeto llamado calculadora, const crea una variabre para asignar a otro objeto, calculadora es el nombre de la variabre, new crea un nuevo objeto y calculadora(); llama al constructor de la clase calculadora.
